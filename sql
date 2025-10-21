@@ -1,6 +1,11 @@
-INSERT INTO categories (id, name, created_at, updated_at) VALUES
-(1, 'Électronique', NOW(), NOW()),
-(2, 'Vêtements', NOW(), NOW()),
-(3, 'Alimentation', NOW(), NOW()),
-(4, 'Maison & Jardin', NOW(), NOW()),
-(5, 'Sports', NOW(), NOW());
+INSERT INTO categories (name, created_at, updated_at) VALUES
+('Smartphones', NOW(), NOW()),
+('Tablettes', NOW(), NOW()),
+('Accessoires', NOW(), NOW()),
+('Montres connectées', NOW(), NOW()),
+('Écouteurs sans fil', NOW(), NOW()),
+('Chargeurs', NOW(), NOW()),
+('Protection d\'écran', NOW(), NOW()),
+('Batteries externes', NOW(), NOW()),
+('Appareils photo', NOW(), NOW()),
+('Lunettes de réalité virtuelle', NOW(), NOW());
