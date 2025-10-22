@@ -15,7 +15,7 @@ Tous
     
 <a href="#" class="px-6 py-2 bg-gray-200 text-gray-700 rounded-full font-semibold hover:bg-gray-300 transition">
 <!--Affichage du tableau Apres "Tous" -->
-{{$category->name  }}
+{{$category->name}}
 </a>
 
 @empty

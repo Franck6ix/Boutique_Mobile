@@ -25,7 +25,7 @@ class Categories extends Component
     {
         
         //recupéré toute les categories
-        $categories = Category::All();
+        $categories = Category::limit(7)->get();
         
         // Affichage du tableau pour verifier si les données sont presentes.
         //dd($Categories);
