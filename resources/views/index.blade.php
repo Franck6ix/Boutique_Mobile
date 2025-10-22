@@ -1,8 +1,10 @@
 @extends('Layout.app')
 
 @section('content')
-<p>ZONE ACTIVE </p>
+    <h1>Entrainement Au MVC </h1>
+
+    <p>ZONE ACTIVE </p><br>
+
+   
 @endsection
-
-
 

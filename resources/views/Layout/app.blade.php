@@ -20,7 +20,7 @@
         @endif
 </head>
 
-<body>
+<body class = "bg-gray-60" alt = "" >
 
 <x-navigation/>
 
