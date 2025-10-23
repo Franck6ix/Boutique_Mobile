@@ -1,16 +1,15 @@
-                <div class="background-color: border-l-blue-900 font-mono width:500px height:20px">
 
-            <!--Carte Produit-->
-            <img class="" src="">
+<!--CARD PRODUIT-->
 
-        <h4 class="font-mono">Categorie:</h4>
+<div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition ">
+        
+        <div class="bg-amber-600 h-64 flex items-center justify-center">
+        <img>
+                Image
+        </div>
+        
+        
+        Ma Card
 
-<p>Produit: de qualité supperieur <br> Poid : 400 gr<br> Avantage: élevé <br></p>
-
-        <div class="font-mono width:500px height:20px">Save Changes</div>
-
-                </div>
-
-
-
-
+        
+</div>

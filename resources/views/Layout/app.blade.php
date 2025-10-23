@@ -31,7 +31,8 @@
 
 <x-categories/>
 
-<x-card-product/>
+
+
 
 @yield('content')
 
