@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class BoutiqueController extends Controller
@@ -10,8 +11,9 @@ class BoutiqueController extends Controller
      * Display a listing of the resource.
      */
     public function index()
-    {
-        return view('index');
+    {   // recupérer 6 Produits de la base a laide du modele Product
+        $products = Product::limit(6)->get();
+        return view('index', compact('products'));
     }
 
     /**
