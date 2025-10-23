@@ -12,7 +12,7 @@ class BoutiqueController extends Controller
      */
     public function index()
     {   // recupérer 6 Produits de la base a laide du modele Product
-        $products = Product::limit(6)->get();
+        $products = Product::limit(20)->get();
         return view('index', compact('products'));
     }
 

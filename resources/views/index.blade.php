@@ -6,10 +6,10 @@
 <!--Grille produit Tablette 2 produit par rangé-->
 <!--Grille produit ordinateur 4 produit par rangé-->
 
-<div class="grid grid-cols-1 md:grid-cols-3 mg:grid-cols-4 gap-9">
+<div class="grid grid-cols-1 md:grid-cols-4 mg:grid-cols-4 gap-9">
 
 @forelse ($products as $product)
-    <x-card-product/>
+    <x-card-product :product="$product"/>
 
 @empty
     Pas de produit en Bases
