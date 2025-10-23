@@ -30,6 +30,6 @@ class Categories extends Component
         // Affichage du tableau pour verifier si les données sont presentes.
         //dd($Categories);
         
-        return view('components.categories', compact('categories'));
+        return view('components.categories', compact('categories')); 
     }
 }
