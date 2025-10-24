@@ -1,4 +1,5 @@
 <?php
+//CETTE PAGE CORRESPOND A LA FORM DU FORMULAIRE DE CREATION
 
 namespace App\Filament\Resources\Products\Schemas;
 
@@ -29,7 +30,7 @@ class ProductForm
                 TextInput::make('price')
                     ->required()
                     ->numeric()
-                    ->prefix('$'),
+                    ->prefix('€'),
             ]);
     }
 }

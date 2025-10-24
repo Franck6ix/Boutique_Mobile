@@ -1,4 +1,5 @@
 <?php
+//CETTE PAGE CORRESPOND A LA TABLE QUI AFFICHE LES PRODUITS DANS L'ADMINISTRATION
 
 namespace App\Filament\Resources\Products\Tables;
 
@@ -30,7 +31,7 @@ class ProductsTable
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                    ,//->toggleable(isToggledHiddenByDefault: false), // si la Ligne est cacher qui rajoute la date de creation
                 TextColumn::make('updated_at')
                     ->dateTime()
                     ->sortable()
