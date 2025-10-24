@@ -1,9 +1,11 @@
 <?php
 
-use    App\Http\Controllers\ProductController;
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\BoutiqueController;
+use    App\Http\Controllers\ProductController;
 
+Route::get('/Ma_Boutique', [BoutiqueController::class, 'index'])->name('detail');
 Route::get('/', function () {
     return view('welcome');
 });
