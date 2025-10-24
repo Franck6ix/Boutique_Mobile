@@ -37,7 +37,11 @@ class BoutiqueController extends Controller
      */
     public function show(string $id)
     {
-        //
+        //Logique de recuperation de données du modèle
+        //SELECTE * FROM id , 
+        $product = Product::find($id);
+        
+        return view('detail',compact('product'));
     }
 
     /**
